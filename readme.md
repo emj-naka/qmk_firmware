@@ -1,3 +1,20 @@
+# Ergodoxキーボードのビルド手順
+
+```
+brew install teensy_loader_cli
+brew tap osx-cross/avr
+brew install avr-libc
+brew install avr-gcc
+```
+
+ディレクトリの移動
+```
+cd /Users/emj/.ghq/github.com/emj-naka/qmk_firmware
+make ergodox_ez:emj
+```
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
