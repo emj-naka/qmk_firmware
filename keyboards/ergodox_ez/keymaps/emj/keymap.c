@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        ,-------------.       ,-------------.
  *                                        | App  | LGui |       | RGui |Ctrl/Esc|
  *                                 ,------|------|------|       |------+--------+------.
- *                                 |      |      | End  |       | PgUp |        |      |
+ *                                 |      |      | <><  |       | PgUp |        |      |
  *                                 | Space|Backsp|------|       |------| Space  |Enter |
  *                                 |      |ace   | LGui |       | RGui |        |      |
  *                                 `--------------------'       `----------------------'
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT,        CTL_T(KC_Z),  KC_X,   KC_C,   KC_V,   KC_B,   ALL_T(KC_NO),
         LT(SYMB,KC_GRV),KC_QUOT,      LALT(KC_LSFT),  KC_LEFT,KC_RGHT,
                                               ALT_T(KC_APP),  KC_LGUI,
-                                                              KC_END,
+                                                              KC_LABK,
                                                KC_SPC,KC_BSPC,KC_LGUI,
         // right hand
              KC_RGHT,     KC_6,   KC_7,   KC_8,   KC_9,   KC_0,             KC_MINS,
@@ -50,8 +50,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              MEH_T(KC_NO),KC_N,   KC_M,   KC_COMM,KC_DOT, CTL_T(KC_SLSH),   KC_UNDS,
                                   KC_UP,  KC_DOWN,KC_LBRC,KC_RBRC,          KC_FN1,
              KC_RGUI,        CTL_T(KC_ESC),
-             KC_PGUP,
-             KC_RGUI,KC_BSPC, KC_ENT
+             KC_RABK,
+             KC_RGUI,KC_SPC, KC_ENT
     ),
 /* Keymap 1: Symbol Layer
  *
